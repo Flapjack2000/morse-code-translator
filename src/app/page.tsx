@@ -1,13 +1,13 @@
 "use client"
 import { ArrowBigRightDash } from "lucide-react";
-import { MorseEnglishPair, MorseTree, MorseTreeNode } from "./morseTree";
+import { MorseEnglishPair, MorseTree } from "./morseTree";
 import { useState } from "react";
 
 export default function Home() {
   const [inputText, setInputText] = useState("")
   const [outputText, setOutputText] = useState("")
 
-  const [mode, setMode] = useState<"mte" | "etm">("mte")
+  // const [mode, setMode] = useState<"mte" | "etm">("mte")
 
   const textboxStyles = "border rounded p-1 h-20 shadow-xl resize-none"
 
@@ -59,8 +59,8 @@ export default function Home() {
       <div className="flex flex-col gap-2">
         <p className="font-bold indent-[-20]">Writing Morse Code</p>
         <ul className="list-disc">
-          <li>Use "." for dots and "-" or "_" for dashes.</li>
-          <li>Use "/" for spaces between words.</li>
+          <li>Use &quot;.&quot; for dots and &quot;-&quot; or &quot;_&quot; for dashes.</li>
+          <li>Use &quot;/&quot; for spaces between words.</li>
         </ul>
       </div>
 
