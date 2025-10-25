@@ -20,6 +20,10 @@ export default function Home() {
   return (
     <div className="h-full flex flex-col gap-10 items-center justify-center">
       <h1 className="text-3xl mt-10">Morse Code Translator</h1>
+      <h1 className="text-xl">
+        -- --- .-. ... . / -.-. --- -.. . / - .-. .- -. ... .-.. .- - --- .-. / -... -.-- / --.. .- -.-. .... / ---... -.--.-
+      </h1>
+
 
       <div className="flex items-center ml-2 mr-2 ">
 
