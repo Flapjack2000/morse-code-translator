@@ -9,7 +9,7 @@ export default function Home() {
 
   // const [mode, setMode] = useState<"mte" | "etm">("mte")
 
-  const textboxStyles = "max-w-10 md:max-w-auto border rounded p-1 h-20 shadow-xl resize-none"
+  const textboxStyles = "max-w-25 md:max-w-auto border rounded p-1 h-20 shadow-xl resize-none"
 
   const tree = new MorseTree()
 
@@ -19,8 +19,8 @@ export default function Home() {
 
   return (
     <div className="h-full w-full flex flex-col gap-10 items-center justify-center">
-      <h1 className="md:text-3xl md:mt-10">Morse Code Translator</h1>
-      <h1 className="md:text-xl">
+      <h1 className="text-xl md:text-3xl md:mt-10">Morse Code Translator</h1>
+      <h1 className="m-2 text-sm md:text-xl">
         -- --- .-. ... . / -.-. --- -.. . / - .-. .- -. ... .-.. .- - --- .-. / -... -.-- / --.. .- -.-. .... / ---... -.--.-
       </h1>
 
