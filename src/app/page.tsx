@@ -63,7 +63,7 @@ export default function Home() {
       <div className="flex flex-col gap-2">
         <p className="font-bold indent-[-20]">Writing Morse Code</p>
         <ul className="list-disc">
-          <li>Use &quot;.&quot; for dots and &quot;-&quot; or &quot;_&quot; for dashes.</li>
+          <li>Use &quot;.&quot; or &quot;*&quot; for dots and &quot;-&quot; or &quot;_&quot; for dashes.</li>
           <li>Use &quot;/&quot; for spaces between words.</li>
         </ul>
       </div>
