@@ -161,7 +161,7 @@ export class MorseTree {
 
     morse.split(" ").forEach((morseWord) => {
       morseWord.split("").forEach((symbol) => {
-        if (symbol == ".") {
+        if (symbol == "." || symbol == "*") {
           if (curr_node != null) {
             curr_node = curr_node.dot;
           }
