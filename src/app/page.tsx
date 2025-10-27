@@ -32,6 +32,7 @@ export default function Home() {
             Morse Code Input
           </label>
           <textarea
+            onReset={() => { setInputText("") }}
             placeholder=".... . .-.. .-.. ---"
             onChange={(e) => { setInputText(e.target.value) }}
             value={inputText}
