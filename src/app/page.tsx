@@ -9,7 +9,7 @@ export default function Home() {
 
   // const [mode, setMode] = useState<"mte" | "etm">("mte")
 
-  const textboxStyles = "max-w-25 ml-2 mr-2 md:max-w-auto border rounded p-1 h-20 shadow-xl resize-none"
+  const textboxStyles = "max-w-25 md:max-w-100 ml-2 mr-2 md:max-w-auto border rounded p-1 h-20 shadow-xl resize-none"
 
   const tree = new MorseTree()
 
